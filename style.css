@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.container {
+    width: 30em;
+    height: 34em;
+    border-radius: 20px;
+    position: relative;
+    top: 2em;
+    left: 32%;
+    outline: 3px solid rgb(148, 196, 196);
+    box-shadow: 15px 15px 10px 5px rgba(0,0,0,0.3);
+    
+
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo input {
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    top: 8em;
+    right: 14.5em;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(122, 196, 138), rgb(80, 161, 144), rgb(68, 104, 151));
+    outline: none;
+    color: white;
+
+}
+
+input::placeholder{
+    color: white;
+}
+
+.conteudo select {
+    position: relative;
+    bottom: 1em;
+    left: 7.2em;
+    top: 2em;
+    padding: 2%;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    font-style: italic;
+    color: black;
+    
+}
+
+
+  
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0.3em;
+}
+
+.container button{
+    position: relative;
+    top: 11em;
+    left: 15em;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, rgb(122, 196, 138), rgb(80, 161, 144), rgb(68, 104, 151));
+}
+
+.container button span {
+    display: flex;
+    padding: 16px 20px;
+    color: white;
+    font-size: 13px;
+    
+}
+
+
+.moeda-gringa {
+    width: 220px;
+    height: 150px;
+    position: relative;
+    right: 2em;
+    top: 12.5em;
+    border-radius: 15px;
+}
+
+.moeda-gringa span {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 25px;
+ position: relative;
+ top: 0.8em;   
+}
+
+.moeda-gringa p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.moeda-br{
+    width: 220px;
+    height: 150px;
+    position: relative;
+    left: 15.2em;
+    top: 2.1em;
+    bottom: 5em;
+    border-radius: 15px;
+}
+
+.moeda-br span {
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 25px;
+ position: relative;
+ top: 0.2em;  
+}
+
+.moeda-br p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
