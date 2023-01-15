@@ -20,7 +20,7 @@ btnEnviar.addEventListener('click', e =>{
 
 
 const cotaçãoFeth = async moeda => {
-    const url = `http://economia.awesomeapi.com.br/json/last/${moeda}`
+    const url = `https://economia.awesomeapi.com.br/json/last/${moeda}`
 
     const response = await fetch(url)
     const data = response.json()
