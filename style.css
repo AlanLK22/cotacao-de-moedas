@@ -12,7 +12,8 @@ body {
     border-radius: 20px;
     position: relative;
     top: 2em;
-    left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     outline: 3px solid rgb(148, 196, 196);
     box-shadow: 15px 15px 10px 5px rgba(0,0,0,0.3);
     
